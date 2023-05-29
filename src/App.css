@@ -1,42 +1,76 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  height: 100vw;
+
+  margin-top: 100px;
+}
+.brand-logo {
+  max-height: 100px;
+  max-width: 60px;
+}
+.text-title {
+  font-size: 13px;
+}
+.font-title {
+  font-size: 20px;
+}
+.font-subtitle {
+  font-size: 13.5px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.nav-link-logOut {
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.welcome-container {
+  height: 250px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome-container-img {
+  max-width: 320px;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.students-container {
+  font-size: 12px;
 }
 
-.card {
-  padding: 2em;
+.students-pfp {
+  max-width: 500px;
+  max-height: 50px;
+}
+.students-pfp-wrapper {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.read-the-docs {
-  color: #888;
+.working-hrs {
+  font-size: 12px;
+}
+
+.lesson-media-container {
+  font-size: 12px;
+}
+
+.grade {
+  font-size: medium;
+}
+.profile-pfp {
+  max-width: 500px;
+  max-height: 50px;
+}
+
+.lessons {
+  border-left: solid;
+  border-left-color: red;
+  border-width: 6px;
+  border-radius: 4px;
+}
+
+.lessons-pfp {
+  max-width: 300px;
+  max-height: 30px;
+}
+
+.completed-tasks-container {
+}
+.completed-tasks {
+  font-size: 13px;
 }
