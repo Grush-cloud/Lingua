@@ -6,7 +6,7 @@ import Students from "./components/Students";
 import Workinghrs from "./components/Workinghrs";
 import LessonMedia from "./components/LessonMedia";
 import Profile from "./components/Profile";
-import Date from "./components/Date";
+import DatePicker from "./components/Date";
 import Lessons from "./components/Lessons";
 import CompletedTasks from "./components/CompletedTasks";
 import studentDetails from "./students.json";
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Container className="m-0 border border-light shadow">
+      <div className="m-0 border border-light shadow">
         <Row>
           <Col lg={2}>
             {/* Navigation Bar */}
@@ -50,16 +50,16 @@ function App() {
             </Row>
           </Col>
           <Col className="ms-4">
-            <Row>
+            <Row className="ms-5">
               <Col>
                 {/* Profile Component */}
                 <Profile />
               </Col>
             </Row>
-            <Row className="mb-1">
+            <Row className="ms-5 mb-1">
               <Col className="ms-3">
                 {/* Date Component */}
-                <Date />
+                <DatePicker />
               </Col>
             </Row>
             <Row className="ms-2 mb-0">
@@ -76,7 +76,7 @@ function App() {
             </Row>
           </Col>
         </Row>
-      </Container>
+      </div>
     </>
   );
 }
